@@ -1,0 +1,130 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.foodordercontainer{
+  padding:20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2F2D2D;
+}
+.foodlist{
+  flex:1;
+  height:300px;
+  padding:10px;
+  box-sizing: border-box;
+  border:1px solid grey;
+  background-color: #d4ebf2;
+  border-radius:10px;
+}
+.fooditem{
+  width:100%;
+  height: 70px;
+  /*border:1px solid black;*/
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.btnlist{
+  flex:1;
+  /*border:1px solid grey;*/
+  padding-top:70px;
+  padding-left:120px;
+  box-sizing: border-box;
+}
+.carttotalsection{
+  flex:1;
+  height:340px;
+  box-sizing: border-box;
+  background-color: #d4ebf2;
+  border-radius:10px;
+}
+.orderlist{
+  /*flex:2;*/
+  width:100%;
+  height:280px;
+  padding:10px;
+  margin:10px;
+}
+.cartaddition{
+  display: block;
+  margin-bottom:15px;
+  padding:10px;
+  cursor: pointer;
+  margin-left:50px;
+  border:none;
+  background-color: #adbce6;
+  outline: none;
+  border-radius:10px;
+}
+.cartremoval{
+  display: block;
+  padding:10px;
+  cursor: pointer;
+  margin-left:30px;
+  border:none;
+  background-color: #adbce6;
+  outline:none;
+  border-radius:10px;
+}
+/*.list-group-item{
+  display: flex;
+  padding:10px;
+  box-sizing: border-box;
+}*/
+.foodimg{
+  flex:1;
+  height:90%;
+  border-radius: 10px;
+}
+.foodname{
+  flex:2;
+  height:90%;
+  text-align:center;
+  font-size:18px;
+  margin-top:10px;
+}
+.foodprice{
+  flex:1;
+  height: 90%;
+  text-align: center;
+  margin-top:10px;
+  font-size:18px;
+}
+.totalpricesec{
+  background-color:#adbce6;
+  color:black;
+  height:40px;
+  text-align:center;
+  margin-top:20px;
+  font-size:20px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+@media only screen and (max-width: 768px) {
+  .btnlist{
+    flex:1;
+    /*border:1px solid grey;*/
+    padding-top:70px;
+    padding-left:20px;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .foodordercontainer{
+    padding:20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: #2F2D2D;
+  }
+  .btnlist{
+    flex:1;
+    /*border:1px solid grey;*/
+    padding-top:10px;
+    padding-left:130px;
+    padding-bottom:20px;
+    box-sizing: border-box;
+  }
+}
